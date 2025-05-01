@@ -2,6 +2,9 @@
 
 A Streamlit web application that converts natural language to SQL queries using Google's Gemini Pro AI. The application allows users to upload SQLite databases and generate SQL queries through natural language input.
 
+## Live Link
+https://tabsql.streamlit.app/
+
 ## Features
 
 - Upload and analyze SQLite databases
@@ -87,7 +90,6 @@ The application includes comprehensive error handling for:
 - Query execution errors
 
 Automatic query correction is attempted when possible.
-
 
 
 ## License
