@@ -24,7 +24,7 @@ A Streamlit web application that converts natural language to SQL queries using 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/dev-arpit5462/tabsql_v2.git
 cd sql-query-generator
 ```
 
@@ -88,9 +88,7 @@ The application includes comprehensive error handling for:
 
 Automatic query correction is attempted when possible.
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
