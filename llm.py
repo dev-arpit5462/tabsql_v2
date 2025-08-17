@@ -13,7 +13,7 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable is not set")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.5-flash-preview-04-17')
+model = genai.GenerativeModel('gemini-2.5-pro')
 
 class QueryGenerationError(Exception):
     """Custom exception for query generation errors."""
